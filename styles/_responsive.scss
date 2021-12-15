@@ -1,0 +1,128 @@
+@media (max-width: 500px) {
+    header {
+        height: 55vh;
+        padding: 60px 30px;
+        background-position: 50% 9%;
+    }
+
+    header h1 {
+        font-size: 140%;
+    }
+
+    header p {
+        font-size: 86%;
+        padding: 0px 85px;
+    }
+
+    .card {
+        width: 88%;
+        left: 1.9rem;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .card h2 {
+        margin-bottom: 5px;
+    }
+
+    .card .p2 {
+        margin-left: 12px;
+    }
+
+    .p2 h1 {
+        font-size: 35px;
+    }
+
+    .p2 p {
+        font-size: 14px;
+    }
+
+    .price {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .price h2 {
+        font-size: 14px;
+    }
+
+    .slider-container {
+        margin-bottom: 40px;
+    }
+
+    .toog {
+        font-size: 13px;
+    }
+
+    .df {
+        visibility: hidden;
+        position: relative;
+    }
+
+    .df::after {
+        visibility: visible;
+        position: absolute;
+        content: '-25%';
+        width: 60px;
+        height: 30px;
+        top: 0;
+        left: 1.5rem;
+        background: $lgRed;
+        color: $lRed;
+        border-radius: 20px;
+        padding: 0px 3px;
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+
+    .two {
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 30px;
+        align-items: center;
+    }
+
+    .services {
+        width: 70%;
+    }
+
+    .service {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .service p{
+        width: 100%;
+    }
+
+    .btn {
+        margin-left: -20px;
+    }
+
+    .btn button {
+        padding: 14px 45px; 
+    }
+
+}
+
+@media (max-width: 362px) {
+    header p {
+        font-size: 12px;
+    }
+
+    .card {
+        top: 12rem;
+        left: 1.5rem;
+    }
+
+    .service {
+        margin-bottom: 25px;
+    }
+
+    .btn {
+        margin-left: 0px;
+    }
+}
+
+

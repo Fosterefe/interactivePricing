@@ -1,0 +1,136 @@
+.card {
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    padding: 40px 35px;
+    position: absolute;
+    left: 30%;
+    top: 62%;
+    background-color: white;
+}
+
+.one {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.price h2 {
+    font-size: 15px;
+    font-weight: 700;
+    color: $gBlue;
+}
+
+.p2 {
+    display: flex;
+    margin-right: 10px;
+}
+
+.price h1 {
+    font-weight: 700;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    color: $darkBlue;
+}
+
+.price p  {
+    color: $gBlue;
+    font-size: 13px;
+    margin-left: 5px;
+    margin-top: 11px;
+}
+
+.slider-container {
+    margin-bottom: 35px;
+    width: 100%;
+}
+
+.toog {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    font-size: 13px;
+    font-weight: 400;
+    color: $gBlue;
+}
+
+.toog .df {
+    color: $lRed;
+    background-color: $lgRed;
+    border-radius: 10px;
+    padding: 5px 6px;
+}
+
+.toog p {
+    margin-right: 10px;
+}
+
+.check {
+    margin-right: 10px;
+}
+
+.two {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    border-top: 1px solid black;
+    padding-top: 20px;
+}
+
+.services {
+    width: 52%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.service {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.service p {
+    position: absolute;
+    left: 15%;
+    top: -20%;
+}
+
+.service img {
+    height: 11px;
+    margin-bottom: 20px;
+}
+
+.btn button {
+    background-color: $darkBlue;
+    color: $lbBluee;
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    color: white;
+}
+
+@import './sldcheck';
+
